@@ -1,13 +1,13 @@
 import React from 'react';
-import gitlogo from './assets/git dev.png';
-import linklogo from './assets/link dev.png';
-import instalogo from './assets/insta logo dev.png';
-import devlogo from './assets/dev logo.png';
+import gitlogo from './assets/git-dev.png';
+import linklogo from './assets/link-dev.png';
+import instalogo from './assets/insta-logo-dev.png';
+import devlogo from './assets/dev-logo.png';
 import perfillogo from './assets/perfil11.png';
-import notelogo from './assets/dev img.png';
+import notelogo from './assets/dev-img.png';
 import cerlogo from './assets/cer3.png';
-import nextlogo from './assets/next logo.png';
-import contactlogo from './assets/contato dev.png';
+import nextlogo from './assets/next-logo.png';
+import contactlogo from './assets/contato-dev.png';
 import clipDev from './assets/videos/clip-dev.mp4';
 import './Global.css';
 
@@ -132,7 +132,7 @@ function App() {
       // Adicione um poster como fallback inicial
       poster="/videos/poster.jpg" // (opcional) crie uma imagem thumbnail
     >
-      <source src={clipDev} type="video/mp4" />
+      <source src="/video/clip-dev.mp4" type="video/mp4" />
       <p className="video-fallback">
         Seu navegador não suporta vídeos HTML5.
       </p>
@@ -154,7 +154,7 @@ function App() {
 
             <h1 className='contact-text'>Contato</h1>
 
-            <img src={contactlogo} className='contactlogo' alt="contactlogo" />
+            <img src="/assets/contato-dev.png" className='contactlogo' alt="contactlogo" />
           </div>
 
           <div className='sub-contact2'>
