@@ -1,4 +1,4 @@
-import Image from 'next/image';
+import React from 'react';
 import gitlogo from './assets/git-dev.png';
 import linklogo from './assets/link-dev.png';
 import instalogo from './assets/insta-logo-dev.png';
