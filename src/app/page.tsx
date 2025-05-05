@@ -11,7 +11,6 @@ import contactlogo from './assets/contato-dev.png';
 /*import clipDev from './assets/videos/clip-dev.mp4';*/
 import './Global.css';
 
-
 function App() {
   return (
     <div className='App'>
