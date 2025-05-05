@@ -1,4 +1,4 @@
-import React from 'react';
+import Image from 'next/image';
 import gitlogo from './assets/git-dev.png';
 import linklogo from './assets/link-dev.png';
 import instalogo from './assets/insta-logo-dev.png';
@@ -8,7 +8,7 @@ import notelogo from './assets/dev-img.png';
 import cerlogo from './assets/cer3.png';
 import nextlogo from './assets/next-logo.png';
 import contactlogo from './assets/contato-dev.png';
-import clipDev from './assets/videos/clip-dev.mp4';
+/*import clipDev from './assets/videos/clip-dev.mp4';*/
 import './Global.css';
 
 
@@ -18,7 +18,7 @@ function App() {
       <header className="App-header">
         <nav className='name-nav'>
           <ul>
-            <img src={devlogo} className='devlogo-app' alt="dev" />
+            <Image src={devlogo} className='devlogo-app' alt="dev" />
             <h2>Tiagotj7</h2>
           </ul>
         </nav>
@@ -27,13 +27,13 @@ function App() {
           <ul>
             <h2>Social</h2>
             <a href="https://github.com/Tiagotj7/">
-              <img src={gitlogo} className='gitlogo-app' alt="GitHub" />
+              <Image src={gitlogo} className='gitlogo-app' alt="GitHub" />
             </a>
             <a href="https://www.linkedin.com/in/tiagocarvalhog2020/">
-              <img src={linklogo} className='linklogo-app' alt="Linkedin" />
+            <Image src={linklogo} className='linklogo-app' alt="Linkedin" />
             </a>
             <a href="https://www.instagram.com/tiagotj7.dev/">
-              <img src={instalogo} className='instalogo-app' alt="Instagram" />
+            <Image src={instalogo} className='instalogo-app' alt="Instagram" />
             </a>
           </ul>
         </nav>
@@ -56,7 +56,7 @@ function App() {
           </div>
 
           <div className='logodev-container'>
-            <img src={perfillogo} className='perfillogo-container' alt="perfil" />
+          <Image src={perfillogo} className='perfillogo-container' alt="perfil" />
           </div>
 
         </div>
@@ -68,11 +68,11 @@ function App() {
         <div className='geral2'>
 
           <div className='next'>
-            <img src={nextlogo} className='nextlogo-container' alt="next" />
+          <Image src={nextlogo} className='nextlogo-container' alt="next" />
           </div>
 
           <div className='note-container'>
-            <img src={notelogo} className='notelogo-container' alt="notelog" />
+          <Image src={notelogo} className='notelogo-container' alt="notelog" />
           </div>
         </div>
 
@@ -115,7 +115,7 @@ function App() {
             </div>
 
             <div className='brain-image-container'>
-              <img src={cerlogo} className='brain-image' alt="Brain" />
+            <Image src={cerlogo} className='brain-image' alt="Brain" />
             </div>
           </div>
         </div>
@@ -154,7 +154,7 @@ function App() {
 
             <h1 className='contact-text'>Contato</h1>
 
-            <img src="/assets/contato-dev.png" className='contactlogo' alt="contactlogo" />
+            <Image src={contactlogo} className='contactlogo' alt="contactlogo" />
           </div>
 
           <div className='sub-contact2'>
