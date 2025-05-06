@@ -41,16 +41,16 @@ code {
 
 /*-------------------------------Img-Header-------------------------------------*/
 
-.icons-nav img {
+.icons-nav image {
   height: 3vw;
   cursor: pointer;
 }
 
-.icons-nav img:hover {
+.icons-nav image:hover {
   transform: scale(1.1);
 }
 
-.name-nav img {
+.name-nav image {
   height: 3vw;
 }
 

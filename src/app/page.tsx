@@ -1,15 +1,15 @@
 import React from 'react';
 import './globals.css';
 import Image from 'next/image';
-import gitlogo from './assets/git-dev.png';
-import linklogo from './assets/link-dev.png';
-import instalogo from './assets/insta-logo-dev.png';
-import devlogo from './assets/dev-logo.png';
-import perfillogo from './assets/perfil11.png';
-import notelogo from './assets/dev-img.png';
-import cerlogo from './assets/cer3.png';
-import nextlogo from './assets/next-logo.png';
-import contactlogo from './assets/contato-dev.png';
+import gitlogo from '../../public/assets/git-dev.png';
+import linklogo from '../../public/assets/link-dev.png';
+import instalogo from '../../public/assets/insta-logo-dev.png';
+import devlogo from '../../public/assets/dev-logo.png';
+import perfillogo from '../../public/assets/perfil11.png';
+import notelogo from '../../public/assets/dev-img.png';
+import cerlogo from '../../public/assets/cer3.png';
+import nextlogo from '../../public/assets/next-logo.png';
+import contactlogo from '../../public/assets/contato-dev.png';
 //import clipDev from './assets/videos/clip-dev.mp4';
 
 
