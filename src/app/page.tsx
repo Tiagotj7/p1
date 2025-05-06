@@ -1,4 +1,6 @@
 import React from 'react';
+import './globals.css';
+import Image from 'next/image';
 import gitlogo from './assets/git-dev.png';
 import linklogo from './assets/link-dev.png';
 import instalogo from './assets/insta-logo-dev.png';
@@ -9,8 +11,7 @@ import cerlogo from './assets/cer3.png';
 import nextlogo from './assets/next-logo.png';
 import contactlogo from './assets/contato-dev.png';
 //import clipDev from './assets/videos/clip-dev.mp4';
-import './globals.css';
-import Image from 'next/image';
+
 
 function App() {
   return (
