@@ -8,8 +8,9 @@ import notelogo from './assets/dev-img.png';
 import cerlogo from './assets/cer3.png';
 import nextlogo from './assets/next-logo.png';
 import contactlogo from './assets/contato-dev.png';
-/*import clipDev from './assets/videos/clip-dev.mp4';*/
-import './Global.css';
+//import clipDev from './assets/videos/clip-dev.mp4';
+import './globals.css';
+import Image from 'next/image';
 
 function App() {
   return (
